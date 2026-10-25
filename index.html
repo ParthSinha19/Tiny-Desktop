@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Little Computer Lab</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="loading">Starting up…</div>
+
+<div id="desktop">
+  <svg id="wallpaper" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+    <defs>
+      <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#4dabf7"/>
+        <stop offset="1" stop-color="#d0ebff"/>
+      </linearGradient>
+    </defs>
+    <rect width="1600" height="900" fill="url(#sky)"/>
+    <circle cx="1380" cy="140" r="64" fill="#ffe066"/>
+    <circle cx="1380" cy="140" r="90" fill="#ffe066" opacity=".25"/>
+    <g fill="#fff" opacity=".92">
+      <ellipse cx="300" cy="160" rx="90" ry="32"/><ellipse cx="370" cy="140" rx="70" ry="32"/><ellipse cx="240" cy="145" rx="60" ry="26"/>
+      <ellipse cx="900" cy="250" rx="100" ry="34"/><ellipse cx="980" cy="232" rx="70" ry="30"/><ellipse cx="830" cy="238" rx="60" ry="26"/>
+      <ellipse cx="1180" cy="400" rx="80" ry="26"/><ellipse cx="1240" cy="386" rx="55" ry="24"/>
+    </g>
+    <path d="M0 650 Q300 530 620 630 T1240 610 T1600 650 V900H0Z" fill="#8ce99a"/>
+    <path d="M0 760 Q400 670 800 760 T1600 740 V900H0Z" fill="#51cf66"/>
+    <g fill="#fff"><circle cx="200" cy="800" r="7"/><circle cx="520" cy="830" r="6"/><circle cx="1000" cy="810" r="7"/><circle cx="1350" cy="840" r="6"/></g>
+    <g fill="#ffd43b"><circle cx="200" cy="800" r="3"/><circle cx="520" cy="830" r="3"/><circle cx="1000" cy="810" r="3"/><circle cx="1350" cy="840" r="3"/></g>
+  </svg>
+
+  <div id="icons"></div>
+  <aside id="soon" aria-label="Coming soon"></aside>
+  <div id="windows"></div>
+</div>
+
+<div id="start-menu" hidden></div>
+
+<div id="taskbar">
+  <button id="start-btn" class="start-btn" aria-haspopup="true" aria-expanded="false">
+    <span class="logo"><i></i><i></i><i></i><i></i></span><span>Start</span>
+  </button>
+  <div id="task-apps"></div>
+  <div id="tray">
+    <button id="stars-btn" class="tray-btn" title="Mission Board" aria-label="Mission Board">★ <b id="stars-n">0</b></button>
+    <button id="sound-btn" class="tray-btn" title="Sound on or off" aria-label="Sound on or off"></button>
+    <span id="clock">--:--</span>
+    <button id="show-desktop" class="tray-btn" title="Show the desktop" aria-label="Show the desktop"></button>
+  </div>
+</div>
+
+<div id="bleep">
+  <div id="bleep-bubble" class="bubble" hidden>
+    <p id="bleep-text"></p>
+    <div class="bubble-btns">
+      <button id="bleep-read" class="mini" title="Read this out loud">Listen</button>
+      <button id="bleep-close" class="mini" title="Hide">OK</button>
+    </div>
+  </div>
+  <button id="bleep-bot" aria-label="Bleep the robot. Press for help.">
+    <svg id="bleep-svg" viewBox="0 0 84 92" aria-hidden="true">
+      <g class="bob">
+        <line x1="42" y1="6" x2="42" y2="17" stroke="#495057" stroke-width="3" stroke-linecap="round"/>
+        <circle cx="42" cy="6" r="5" fill="#ff6b6b"/>
+        <rect x="12" y="16" width="60" height="44" rx="16" fill="#4dabf7" stroke="#1971c2" stroke-width="3"/>
+        <rect x="19" y="23" width="46" height="28" rx="11" fill="#e7f5ff"/>
+        <ellipse class="eye" cx="33" cy="35" rx="5" ry="6" fill="#1b3a6b"/>
+        <ellipse class="eye" cx="51" cy="35" rx="5" ry="6" fill="#1b3a6b"/>
+        <path d="M34 44q8 6 16 0" fill="none" stroke="#e8590c" stroke-width="3" stroke-linecap="round"/>
+        <rect x="22" y="62" width="40" height="22" rx="9" fill="#74c0fc" stroke="#1971c2" stroke-width="3"/>
+        <circle cx="42" cy="73" r="4" fill="#fcc419"/>
+        <rect x="3" y="64" width="13" height="9" rx="4.5" fill="#4dabf7" stroke="#1971c2" stroke-width="2"/>
+        <rect x="68" y="64" width="13" height="9" rx="4.5" fill="#4dabf7" stroke="#1971c2" stroke-width="2"/>
+      </g>
+    </svg>
+  </button>
+</div>
+
+<div id="toast-layer" aria-live="polite"></div>
+
+<noscript><p style="padding:2rem;font:20px sans-serif">Little Computer Lab needs JavaScript to run.</p></noscript>
+
+<script src="vfs.js"></script>
+<script src="icons.js"></script>
+<script src="app.js"></script>
+<script src="missions.js"></script>
+<script src="apps/notepad.js"></script>
+<script src="apps/academy.js"></script>
+<script src="apps/paint.js"></script>
+<script src="apps/explorer.js"></script>
+</body>
+</html>
