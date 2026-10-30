@@ -29,6 +29,7 @@
         el('button', { class: 'btn', html: I.g('newpage') + ' New', onclick: newPicture }),
         el('button', { class: 'btn', html: I.g('open') + ' Open', onclick: openDialog }),
         el('button', { class: 'btn primary', html: I.g('save') + ' Save', onclick: save }),
+        el('button', { class: 'btn', html: I.g('desktop') + ' Wallpaper', onclick: makeWallpaper }),
         el('span', { class: 'p-gap' }),
         el('button', { class: 'btn', html: I.g('undo') + ' Undo', onclick: doUndo }),
         el('button', { class: 'btn', html: I.g('clear') + ' Clear', onclick: clearAll }),
@@ -193,6 +194,18 @@
           LCL.bleep.say('Saved in ' + vfs.pathString(n.parent) + '! You can find it in File Explorer.', { ms: 9000 });
           LCL.sound.play('good'); LCL.emit('paint:saved', { id: n.id });
         });
+      }
+      function makeWallpaper() {
+        if (!currentId || !vfs.get(currentId)) {
+          LCL.bleep.say('Save your picture first. Then press Wallpaper to put it on the desktop!', { ms: 9000 });
+          LCL.sound.play('oops');
+          return;
+        }
+        if (dirty) { vfs.writeFile(currentId, canvas.toDataURL('image/png')); dirty = false; refresh(); }
+        LCL.setWallpaper(currentId);
+        LCL.sound.play('good');
+        LCL.bleep.say('Your picture is now the desktop wallpaper! Press Show Desktop to see it.', { ms: 9000 });
+        LCL.emit('paint:wallpaper', { id: currentId });
       }
       function loadFile(id) {
         var n = vfs.get(id);

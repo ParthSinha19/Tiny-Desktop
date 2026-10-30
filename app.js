@@ -374,6 +374,7 @@
     startMenu.appendChild(grid);
     startMenu.appendChild(el('div', { class: 'start-foot' }, [
       el('button', { class: 'btn', html: I.g('desktop') + ' Show Desktop', onclick: function () { closeStart(); showDesktop(); } }),
+      el('button', { class: 'btn ghost', html: I.g('refresh') + ' Default wallpaper', onclick: function () { closeStart(); LCL.clearWallpaper(); LCL.bleep.say('The wallpaper is back to normal.'); } }),
       el('button', { class: 'btn ghost', html: I.g('refresh') + ' Start fresh', onclick: function () { closeStart(); startFresh(); } })
     ]));
   }
@@ -575,6 +576,20 @@
     }
     box.appendChild(row);
   }
+    /* ================= wallpaper ================= */
+  function applyWallpaper() {
+    var id = vfs.getKV('wallpaper', null), n = id && vfs.get(id);
+    var svg = $('#wallpaper');
+    if (n && n.kind === 'drawing' && n.data) {
+      svg.style.display = 'none';
+      desktop.style.background = 'url("' + n.data + '") center / cover no-repeat';
+    } else {
+      svg.style.display = '';
+      desktop.style.background = '';
+    }
+  }
+  LCL.setWallpaper = function (id) { vfs.setKV('wallpaper', id); applyWallpaper(); };
+  LCL.clearWallpaper = function () { vfs.setKV('wallpaper', null); applyWallpaper(); };
 
   /* ================= boot ================= */
   function setSoundIcon() {
@@ -594,7 +609,8 @@
       tickClock(); setInterval(tickClock, 20000);
       renderSoon();
       renderDesktop();
-      vfs.onChange(renderDesktop);
+      applyWallpaper();
+      vfs.onChange(function () { renderDesktop(); applyWallpaper(); });
       if (LCL.missions && LCL.missions.init) LCL.missions.init();
       $('#loading').remove();
       LCL.bleep.say(vfs.persistent

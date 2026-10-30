@@ -32,7 +32,8 @@
         { id: 'w2-erase', text: 'Rub something out with the eraser', event: 'paint:erase' },
         { id: 'w2-undo', text: 'Press Undo', event: 'paint:undo' },
         { id: 'w2-save', text: 'Save your picture', event: 'paint:saved' },
-        { id: 'w2-open', text: 'Open a saved picture', event: 'paint:opened' }
+        { id: 'w2-open', text: 'Open a saved picture', event: 'paint:opened' },
+        { id: 'w2-wall', text: 'Make your picture the wallpaper', event: 'paint:wallpaper' }
       ]
     },
     {
