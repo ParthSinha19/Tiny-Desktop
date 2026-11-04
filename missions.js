@@ -17,7 +17,6 @@
   var MISSIONS = [
     {
       id: 'w1', label: 'Week 1', title: 'Meet the Computer', app: 'academy', appLabel: 'Open Computer Academy', steps: [
-        { id: 'w1-parts', text: 'Find the monitor, keyboard, mouse and speakers', event: 'academy:parts' },
         { id: 'w1-click', text: 'Click the balloons', event: 'academy:click' },
         { id: 'w1-dbl', text: 'Double-click to hatch the eggs', event: 'academy:dblclick' },
         { id: 'w1-drag', text: 'Drag the ball into the basket', event: 'academy:drag' },
