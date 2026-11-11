@@ -65,6 +65,12 @@
         { id: 'wr-d', text: 'Copy your robot', event: 'robot:copied' },
         { id: 'wr-e', text: 'Redesign your robot', event: 'robot:redesigned' },
         { id: 'wr-f', text: 'Become a Robot Creator and File Explorer', event: 'robot:complete' }
+    ] },
+    { id: 'w5', label: 'Week 5', title: 'The Missing Power Crystal', app: 'crystalmystery', appLabel: 'Open the Adventure', steps: [
+      { id: 'w5-a', text: 'Cross out the river path and find the cave', event: 'crystalmystery:paths' },
+      { id: 'w5-b', text: 'Spot the footprint pattern', event: 'crystalmystery:pattern' },
+      { id: 'w5-c', text: 'Find the crystal in the right box', event: 'crystalmystery:box' },
+      { id: 'w5-d', text: 'Restore the power to the village', event: 'crystalmystery:power' }
     ] }
   ];
   var COMING = [{ label: 'Week 4', title: 'Coming soon' }, { label: 'Week 5', title: 'Coming soon' }];
