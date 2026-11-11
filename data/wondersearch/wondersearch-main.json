@@ -1,0 +1,2477 @@
+{
+  "packId": "wondersearch-main",
+  "name": "WonderSearch Discovery Collection",
+  "version": 1,
+  "description": "A child-friendly miniature internet of discoveries, activities, picture collections and playful learning for ages 5–7.",
+  "language": "en-GB",
+  "ageRange": {
+    "min": 5,
+    "max": 7,
+    "schoolYears": [
+      "Year 1",
+      "Year 2"
+    ]
+  },
+  "websites": [
+    {
+      "id": "animal-world",
+      "name": "Animal World",
+      "tagline": "Meet amazing creatures from every corner of our planet.",
+      "description": "A lively wildlife magazine full of animal stories, habitats, picture collections and gentle nature challenges.",
+      "theme": "wildlife"
+    },
+    {
+      "id": "space-explorer",
+      "name": "Space Explorer",
+      "tagline": "Big adventures beyond our little blue planet.",
+      "description": "A friendly space journal exploring planets, stars, astronauts, rockets and the wonders of the night sky.",
+      "theme": "cosmos"
+    },
+    {
+      "id": "ocean-discovery",
+      "name": "Ocean Discovery",
+      "tagline": "Dive beneath the waves and see who lives there.",
+      "description": "An underwater field guide with sea-life galleries, ocean facts and activities about protecting watery habitats.",
+      "theme": "ocean"
+    },
+    {
+      "id": "fun-learning",
+      "name": "Fun Learning",
+      "tagline": "Little questions can lead to big discoveries.",
+      "description": "A playful learning hub for simple science, number puzzles, word games and curious experiments.",
+      "theme": "learning"
+    },
+    {
+      "id": "nature-club",
+      "name": "Nature Club",
+      "tagline": "Step outside and explore the living world.",
+      "description": "A nature notebook about plants, weather, habitats, Earth science and small ways to care for our world.",
+      "theme": "nature"
+    },
+    {
+      "id": "history-time",
+      "name": "History Time",
+      "tagline": "Travel through time to discover how people lived.",
+      "description": "A child-friendly history museum featuring ancient places, everyday life, inventions and remarkable discoveries.",
+      "theme": "history"
+    },
+    {
+      "id": "creative-corner",
+      "name": "Creative Corner",
+      "tagline": "Make, draw, imagine and try something new.",
+      "description": "An imaginative studio packed with art ideas, colour discoveries, patterns, crafts and creative challenges.",
+      "theme": "creative"
+    },
+    {
+      "id": "little-inventors",
+      "name": "Little Inventors",
+      "tagline": "Find out how things work, then dream up something new.",
+      "description": "A hands-on technology workshop exploring computers, machines, robots, simple tools and brilliant inventions.",
+      "theme": "technology"
+    }
+  ],
+  "entries": [
+    {
+      "id": "animal-world-001",
+      "title": "Lions: Kings of the Grasslands",
+      "description": "Meet powerful lions, learn how their family groups work and discover why they rest in the shade.",
+      "keywords": [
+        "lion",
+        "lions",
+        "big cats",
+        "africa",
+        "savannah",
+        "grassland",
+        "roar",
+        "pride",
+        "mane"
+      ],
+      "category": "Animals",
+      "website": "animal-world",
+      "page": "animal-world-page-001",
+      "contentType": "article",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "animal-world-002",
+      "title": "Elephants Have Amazing Trunks",
+      "description": "An elephant uses its long trunk to smell, drink, pick up food and greet its family.",
+      "keywords": [
+        "elephant",
+        "elephants",
+        "trunk",
+        "tusks",
+        "africa",
+        "asia",
+        "largest land animal",
+        "herd"
+      ],
+      "category": "Animals",
+      "website": "animal-world",
+      "page": "animal-world-page-002",
+      "contentType": "facts",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "animal-world-003",
+      "title": "Penguin Parade",
+      "description": "waddling penguins are brilliant swimmers, and their feathers help keep them warm in chilly places.",
+      "keywords": [
+        "penguin",
+        "penguins",
+        "birds",
+        "antarctica",
+        "ice",
+        "flightless",
+        "swimming",
+        "seabirds"
+      ],
+      "category": "Animals",
+      "website": "animal-world",
+      "page": "animal-world-page-003",
+      "contentType": "gallery",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "animal-world-004",
+      "title": "Dolphins Talk Underwater",
+      "description": "Discover how dolphins use clicks and whistles, leap through waves and work together in groups.",
+      "keywords": [
+        "dolphin",
+        "dolphins",
+        "sea mammals",
+        "clicks",
+        "whistles",
+        "underwater",
+        "sonar",
+        "oceans"
+      ],
+      "category": "Animals",
+      "website": "animal-world",
+      "page": "animal-world-page-004",
+      "contentType": "article",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "animal-world-005",
+      "title": "Pandas and Their Bamboo Snacks",
+      "description": "Find out why giant pandas spend much of the day eating bamboo in mountain forests.",
+      "keywords": [
+        "panda",
+        "pandas",
+        "giant panda",
+        "bamboo",
+        "china",
+        "black and white",
+        "bear",
+        "mountains"
+      ],
+      "category": "Animals",
+      "website": "animal-world",
+      "page": "animal-world-page-005",
+      "contentType": "facts",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "animal-world-006",
+      "title": "Butterfly Life Cycle",
+      "description": "Follow a tiny egg as it becomes a caterpillar, forms a chrysalis and emerges as a butterfly.",
+      "keywords": [
+        "butterfly",
+        "butterflies",
+        "caterpillar",
+        "chrysalis",
+        "metamorphosis",
+        "insects",
+        "life cycle",
+        "flying insects"
+      ],
+      "category": "Animals",
+      "website": "animal-world",
+      "page": "animal-world-page-006",
+      "contentType": "gallery",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "animal-world-007",
+      "title": "Busy Bees at Work",
+      "description": "Visit a flower-filled garden and learn how bees collect nectar and help plants make seeds.",
+      "keywords": [
+        "bee",
+        "bees",
+        "honeybee",
+        "honey",
+        "nectar",
+        "pollen",
+        "pollination",
+        "insects",
+        "flying insects",
+        "garden"
+      ],
+      "category": "Animals",
+      "website": "animal-world",
+      "page": "animal-world-page-007",
+      "contentType": "article",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "animal-world-008",
+      "title": "Sharks: Ocean Super Swimmers",
+      "description": "Meet different sharks and learn that these fish have skeletons made from cartilage, not bone.",
+      "keywords": [
+        "shark",
+        "sharks",
+        "great white",
+        "whale shark",
+        "fish",
+        "teeth",
+        "cartilage",
+        "sea animals",
+        "ocean"
+      ],
+      "category": "Animals",
+      "website": "animal-world",
+      "page": "animal-world-page-008",
+      "contentType": "facts",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "animal-world-009",
+      "title": "Dinosaur Discovery: Meet the Giants",
+      "description": "Travel to prehistoric times to meet plant-eating and meat-eating dinosaurs from long ago.",
+      "keywords": [
+        "dinosaur",
+        "dinosaurs",
+        "dino",
+        "prehistoric",
+        "ancient reptiles",
+        "jurassic",
+        "cretaceous",
+        "fossils"
+      ],
+      "category": "Dinosaurs",
+      "website": "animal-world",
+      "page": "animal-world-page-009",
+      "contentType": "gallery",
+      "featured": true,
+      "relatedEntries": [
+        "animal-world-010",
+        "animal-world-011",
+        "animal-world-012",
+        "nature-club-008"
+      ]
+    },
+    {
+      "id": "animal-world-010",
+      "title": "Tyrannosaurus Rex: The T. Rex",
+      "description": "Discover the famous T. rex, with tiny arms, strong legs and a powerful bite.",
+      "keywords": [
+        "t rex",
+        "trex",
+        "tyrannosaurus rex",
+        "t-rex",
+        "dino",
+        "dinosaur",
+        "meat eater",
+        "theropod"
+      ],
+      "category": "Dinosaurs",
+      "website": "animal-world",
+      "page": "animal-world-page-010",
+      "contentType": "facts",
+      "featured": true,
+      "relatedEntries": [
+        "animal-world-009",
+        "animal-world-012",
+        "history-time-012"
+      ]
+    },
+    {
+      "id": "animal-world-011",
+      "title": "Triceratops: Three-Horned Dinosaur",
+      "description": "Look closely at Triceratops, a plant-eating dinosaur with three horns and a large neck frill.",
+      "keywords": [
+        "triceratops",
+        "three horns",
+        "dinosaur",
+        "dino",
+        "herbivore",
+        "plant eater",
+        "frill",
+        "prehistoric"
+      ],
+      "category": "Dinosaurs",
+      "website": "animal-world",
+      "page": "animal-world-page-011",
+      "contentType": "article",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "animal-world-012",
+      "title": "Fossils: Clues from Long Ago",
+      "description": "See how bones, shells and footprints can become fossils that help us learn about ancient life.",
+      "keywords": [
+        "fossil",
+        "fossils",
+        "dinosaur bones",
+        "footprints",
+        "prehistoric",
+        "palaeontology",
+        "rocks",
+        "ancient"
+      ],
+      "category": "Dinosaurs",
+      "website": "animal-world",
+      "page": "animal-world-page-012",
+      "contentType": "article",
+      "featured": true,
+      "relatedEntries": [
+        "animal-world-009",
+        "animal-world-010",
+        "nature-club-008"
+      ]
+    },
+    {
+      "id": "animal-world-013",
+      "title": "Animal Homes Around the World",
+      "description": "Explore nests, burrows, dens and hives, and match each animal to a place where it lives.",
+      "keywords": [
+        "animal homes",
+        "habitat",
+        "nest",
+        "burrow",
+        "den",
+        "hive",
+        "home",
+        "wildlife",
+        "shelter"
+      ],
+      "category": "Habitats",
+      "website": "animal-world",
+      "page": "animal-world-page-013",
+      "contentType": "activity",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "animal-world-014",
+      "title": "Who Left These Tracks?",
+      "description": "Become a nature detective and match animal footprints to the creatures that made them.",
+      "keywords": [
+        "animal tracks",
+        "footprints",
+        "paw prints",
+        "detective",
+        "tracks",
+        "wildlife",
+        "quiz",
+        "matching"
+      ],
+      "category": "Animals",
+      "website": "animal-world",
+      "page": "animal-world-page-014",
+      "contentType": "game",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "space-explorer-001",
+      "title": "Our Solar System",
+      "description": "Take a tour of the Sun and its eight planets, from speedy Mercury to distant Neptune.",
+      "keywords": [
+        "solar system",
+        "space",
+        "planets",
+        "sun",
+        "mercury",
+        "venus",
+        "earth",
+        "mars",
+        "jupiter",
+        "saturn",
+        "uranus",
+        "neptune"
+      ],
+      "category": "Space",
+      "website": "space-explorer",
+      "page": "space-explorer-page-001",
+      "contentType": "article",
+      "featured": true,
+      "relatedEntries": [
+        "space-explorer-002",
+        "space-explorer-003",
+        "space-explorer-005",
+        "space-explorer-009",
+        "space-explorer-010"
+      ]
+    },
+    {
+      "id": "space-explorer-002",
+      "title": "Mars: The Red Planet",
+      "description": "Why does Mars look red? Explore its dusty surface, giant volcano and robot visitors.",
+      "keywords": [
+        "mars",
+        "red planet",
+        "planet",
+        "space",
+        "solar system",
+        "rover",
+        "red",
+        "dust",
+        "volcano"
+      ],
+      "category": "Planets",
+      "website": "space-explorer",
+      "page": "space-explorer-page-002",
+      "contentType": "facts",
+      "featured": true,
+      "relatedEntries": [
+        "space-explorer-001",
+        "space-explorer-010",
+        "nature-club-008"
+      ]
+    },
+    {
+      "id": "space-explorer-003",
+      "title": "Jupiter: The Biggest Planet",
+      "description": "Meet the largest planet in our Solar System and spot its enormous swirling storm.",
+      "keywords": [
+        "jupiter",
+        "biggest planet",
+        "largest planet",
+        "gas giant",
+        "great red spot",
+        "space",
+        "solar system"
+      ],
+      "category": "Planets",
+      "website": "space-explorer",
+      "page": "space-explorer-page-003",
+      "contentType": "facts",
+      "featured": true,
+      "relatedEntries": [
+        "space-explorer-001",
+        "space-explorer-004"
+      ]
+    },
+    {
+      "id": "space-explorer-004",
+      "title": "Saturn's Beautiful Rings",
+      "description": "Discover Saturn's rings, made from countless pieces of ice and rock orbiting the planet.",
+      "keywords": [
+        "saturn",
+        "rings",
+        "ringed planet",
+        "ice",
+        "rock",
+        "gas giant",
+        "space",
+        "solar system"
+      ],
+      "category": "Planets",
+      "website": "space-explorer",
+      "page": "space-explorer-page-004",
+      "contentType": "gallery",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "space-explorer-005",
+      "title": "The Moon: Our Neighbour in Space",
+      "description": "Look at the Moon's changing shape and learn why it seems to shine at night.",
+      "keywords": [
+        "moon",
+        "lunar",
+        "night sky",
+        "phases",
+        "craters",
+        "earth",
+        "natural satellite",
+        "space"
+      ],
+      "category": "Space",
+      "website": "space-explorer",
+      "page": "space-explorer-page-005",
+      "contentType": "article",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "space-explorer-006",
+      "title": "The Sun Is a Star",
+      "description": "Learn how our star gives Earth light and warmth, and why we must never look directly at it.",
+      "keywords": [
+        "sun",
+        "star",
+        "daylight",
+        "light",
+        "heat",
+        "solar system",
+        "space",
+        "day and night"
+      ],
+      "category": "Stars",
+      "website": "space-explorer",
+      "page": "space-explorer-page-006",
+      "contentType": "facts",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "space-explorer-007",
+      "title": "Twinkling Stars and Constellations",
+      "description": "Look up at the night sky and join bright stars into patterns called constellations.",
+      "keywords": [
+        "stars",
+        "star",
+        "constellation",
+        "night sky",
+        "stargazing",
+        "space",
+        "orion",
+        "big dipper"
+      ],
+      "category": "Stars",
+      "website": "space-explorer",
+      "page": "space-explorer-page-007",
+      "contentType": "gallery",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "space-explorer-008",
+      "title": "What Is a Black Hole?",
+      "description": "Discover a place in space where gravity is so strong that even light cannot escape.",
+      "keywords": [
+        "black hole",
+        "black holes",
+        "gravity",
+        "space",
+        "stars",
+        "astronomy",
+        "universe"
+      ],
+      "category": "Space",
+      "website": "space-explorer",
+      "page": "space-explorer-page-008",
+      "contentType": "article",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "space-explorer-009",
+      "title": "Astronaut Training",
+      "description": "Try the gentle challenges astronauts practise before travelling into space.",
+      "keywords": [
+        "astronaut",
+        "astronauts",
+        "space traveller",
+        "training",
+        "space suit",
+        "zero gravity",
+        "exercise"
+      ],
+      "category": "Space",
+      "website": "space-explorer",
+      "page": "space-explorer-page-009",
+      "contentType": "activity",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "space-explorer-010",
+      "title": "How Do Rockets Fly?",
+      "description": "Explore how rockets push hot gases downwards to travel upwards into space.",
+      "keywords": [
+        "rocket",
+        "rockets",
+        "launch",
+        "space travel",
+        "engine",
+        "thrust",
+        "astronaut",
+        "spaceship"
+      ],
+      "category": "Space",
+      "website": "space-explorer",
+      "page": "space-explorer-page-010",
+      "contentType": "article",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "space-explorer-011",
+      "title": "Earth from Space",
+      "description": "See our blue planet from above and notice its oceans, clouds and green land.",
+      "keywords": [
+        "earth",
+        "planet",
+        "blue planet",
+        "space",
+        "globe",
+        "continents",
+        "oceans",
+        "clouds"
+      ],
+      "category": "Earth",
+      "website": "space-explorer",
+      "page": "space-explorer-page-011",
+      "contentType": "gallery",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "space-explorer-012",
+      "title": "The Milky Way Galaxy",
+      "description": "Our Solar System lives inside a huge galaxy filled with stars, gas and dust.",
+      "keywords": [
+        "milky way",
+        "galaxy",
+        "universe",
+        "stars",
+        "space",
+        "solar system",
+        "night sky"
+      ],
+      "category": "Stars",
+      "website": "space-explorer",
+      "page": "space-explorer-page-012",
+      "contentType": "facts",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "space-explorer-013",
+      "title": "Make a Moon Crater Model",
+      "description": "Use flour and small soft balls to model how round craters can form on the Moon.",
+      "keywords": [
+        "moon crater",
+        "craters",
+        "experiment",
+        "space activity",
+        "impact",
+        "model",
+        "science"
+      ],
+      "category": "Space",
+      "website": "space-explorer",
+      "page": "space-explorer-page-013",
+      "contentType": "activity",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "space-explorer-014",
+      "title": "Space Picture Quiz",
+      "description": "Test your space spotting skills with planets, rockets, stars and astronaut clues.",
+      "keywords": [
+        "space quiz",
+        "planets",
+        "rocket",
+        "astronaut",
+        "stars",
+        "moon",
+        "game",
+        "challenge"
+      ],
+      "category": "Space",
+      "website": "space-explorer",
+      "page": "space-explorer-page-014",
+      "contentType": "game",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "ocean-discovery-001",
+      "title": "A Tour of the Ocean Zones",
+      "description": "Travel from sunny surface waters to the deep sea and discover how ocean life changes.",
+      "keywords": [
+        "ocean",
+        "sea",
+        "underwater",
+        "deep sea",
+        "ocean zones",
+        "surface",
+        "habitat",
+        "marine life"
+      ],
+      "category": "Oceans",
+      "website": "ocean-discovery",
+      "page": "ocean-discovery-page-001",
+      "contentType": "article",
+      "featured": true,
+      "relatedEntries": [
+        "ocean-discovery-006",
+        "ocean-discovery-009",
+        "ocean-discovery-012"
+      ]
+    },
+    {
+      "id": "ocean-discovery-002",
+      "title": "Sharks: Not All the Same",
+      "description": "Compare tiny and enormous sharks and discover what makes each one special.",
+      "keywords": [
+        "shark",
+        "sharks",
+        "whale shark",
+        "hammerhead",
+        "great white",
+        "fish",
+        "sea animals",
+        "cartilage"
+      ],
+      "category": "Sea Animals",
+      "website": "ocean-discovery",
+      "page": "ocean-discovery-page-002",
+      "contentType": "gallery",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "ocean-discovery-003",
+      "title": "Dolphins and Their Clicks",
+      "description": "Listen in on the underwater world of dolphins and learn how sound helps them find things.",
+      "keywords": [
+        "dolphin",
+        "dolphins",
+        "clicks",
+        "whistles",
+        "communication",
+        "sea mammals",
+        "sonar",
+        "ocean"
+      ],
+      "category": "Sea Animals",
+      "website": "ocean-discovery",
+      "page": "ocean-discovery-page-003",
+      "contentType": "facts",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "ocean-discovery-004",
+      "title": "Octopus: Eight Clever Arms",
+      "description": "Meet a clever octopus that can squeeze through small spaces and change its colour.",
+      "keywords": [
+        "octopus",
+        "octopuses",
+        "eight arms",
+        "camouflage",
+        "ink",
+        "sea creature",
+        "underwater"
+      ],
+      "category": "Sea Animals",
+      "website": "ocean-discovery",
+      "page": "ocean-discovery-page-004",
+      "contentType": "article",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "ocean-discovery-005",
+      "title": "Sea Turtles on the Move",
+      "description": "Follow sea turtles as they swim through oceans and return to sandy beaches to lay eggs.",
+      "keywords": [
+        "sea turtle",
+        "turtles",
+        "flippers",
+        "beach",
+        "eggs",
+        "migration",
+        "ocean",
+        "reptile"
+      ],
+      "category": "Sea Animals",
+      "website": "ocean-discovery",
+      "page": "ocean-discovery-page-005",
+      "contentType": "article",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "ocean-discovery-006",
+      "title": "Coral Reefs: Busy Underwater Cities",
+      "description": "Explore colourful coral reefs where fish, crabs and many other creatures find food and shelter.",
+      "keywords": [
+        "coral",
+        "coral reef",
+        "reefs",
+        "fish",
+        "underwater",
+        "habitat",
+        "sea life",
+        "biodiversity"
+      ],
+      "category": "Habitats",
+      "website": "ocean-discovery",
+      "page": "ocean-discovery-page-006",
+      "contentType": "gallery",
+      "featured": true,
+      "relatedEntries": [
+        "ocean-discovery-010",
+        "ocean-discovery-012",
+        "nature-club-012"
+      ]
+    },
+    {
+      "id": "ocean-discovery-007",
+      "title": "Jellyfish: Drifters of the Sea",
+      "description": "Discover how jellyfish drift with ocean currents and use stinging tentacles to catch food.",
+      "keywords": [
+        "jellyfish",
+        "jellies",
+        "tentacles",
+        "ocean",
+        "sea animals",
+        "drifting",
+        "transparent"
+      ],
+      "category": "Sea Animals",
+      "website": "ocean-discovery",
+      "page": "ocean-discovery-page-007",
+      "contentType": "facts",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "ocean-discovery-008",
+      "title": "Penguins: Birds That Swim",
+      "description": "See how penguins use their flipper-like wings to zoom through cold ocean water.",
+      "keywords": [
+        "penguin",
+        "penguins",
+        "antarctica",
+        "birds",
+        "swimming",
+        "sea",
+        "feathers",
+        "flightless"
+      ],
+      "category": "Sea Animals",
+      "website": "ocean-discovery",
+      "page": "ocean-discovery-page-008",
+      "contentType": "gallery",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "ocean-discovery-009",
+      "title": "The Giant Blue Whale",
+      "description": "Meet the biggest animal known to have lived on Earth and learn how it eats tiny krill.",
+      "keywords": [
+        "blue whale",
+        "whale",
+        "whales",
+        "biggest animal",
+        "krill",
+        "baleen",
+        "mammal",
+        "ocean"
+      ],
+      "category": "Sea Animals",
+      "website": "ocean-discovery",
+      "page": "ocean-discovery-page-009",
+      "contentType": "facts",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "ocean-discovery-010",
+      "title": "Tide Pools: Tiny Ocean Worlds",
+      "description": "Peer into rock pools to find small crabs, snails, sea anemones and other hidden life.",
+      "keywords": [
+        "tide pool",
+        "rock pool",
+        "crab",
+        "snail",
+        "anemone",
+        "shore",
+        "coast",
+        "sea creatures"
+      ],
+      "category": "Habitats",
+      "website": "ocean-discovery",
+      "page": "ocean-discovery-page-010",
+      "contentType": "gallery",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "ocean-discovery-011",
+      "title": "Why Is the Sea Salty?",
+      "description": "Find out how tiny bits of minerals travel from rocks and rivers into the sea.",
+      "keywords": [
+        "salty sea",
+        "salt",
+        "seawater",
+        "ocean",
+        "river",
+        "rocks",
+        "minerals",
+        "science"
+      ],
+      "category": "Ocean Science",
+      "website": "ocean-discovery",
+      "page": "ocean-discovery-page-011",
+      "contentType": "article",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "ocean-discovery-012",
+      "title": "Keep Our Beaches Clean",
+      "description": "Try a beach-care challenge and learn how litter can harm animals that live near the sea.",
+      "keywords": [
+        "beach clean",
+        "litter",
+        "plastic",
+        "pollution",
+        "ocean care",
+        "recycling",
+        "sea animals",
+        "environment"
+      ],
+      "category": "Ocean Care",
+      "website": "ocean-discovery",
+      "page": "ocean-discovery-page-012",
+      "contentType": "activity",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "ocean-discovery-013",
+      "title": "Build a Food Chain Under the Sea",
+      "description": "Put sea plants and animals in the right order to show how energy moves through an ocean food chain.",
+      "keywords": [
+        "food chain",
+        "seaweed",
+        "plankton",
+        "fish",
+        "shark",
+        "energy",
+        "ocean science",
+        "activity"
+      ],
+      "category": "Ocean Science",
+      "website": "ocean-discovery",
+      "page": "ocean-discovery-page-013",
+      "contentType": "activity",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "ocean-discovery-014",
+      "title": "Underwater Creature Match",
+      "description": "Match ocean animals to their pictures, homes and interesting features.",
+      "keywords": [
+        "sea animals",
+        "marine life",
+        "ocean quiz",
+        "matching",
+        "fish",
+        "octopus",
+        "turtle",
+        "game"
+      ],
+      "category": "Sea Animals",
+      "website": "ocean-discovery",
+      "page": "ocean-discovery-page-014",
+      "contentType": "game",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "fun-learning-001",
+      "title": "Why Do Rainbows Appear?",
+      "description": "Sunlight and raindrops work together to make a colourful rainbow in the sky.",
+      "keywords": [
+        "rainbow",
+        "rainbows",
+        "light",
+        "water droplets",
+        "colour",
+        "weather",
+        "prism",
+        "science"
+      ],
+      "category": "Science",
+      "website": "fun-learning",
+      "page": "fun-learning-page-001",
+      "contentType": "article",
+      "featured": true,
+      "relatedEntries": [
+        "fun-learning-006",
+        "nature-club-005",
+        "nature-club-006"
+      ]
+    },
+    {
+      "id": "fun-learning-002",
+      "title": "Magnets: What Do They Attract?",
+      "description": "Test which everyday materials a magnet can pull towards it, and which ones it cannot.",
+      "keywords": [
+        "magnet",
+        "magnets",
+        "magnetic",
+        "attract",
+        "metal",
+        "iron",
+        "experiment",
+        "science"
+      ],
+      "category": "Science",
+      "website": "fun-learning",
+      "page": "fun-learning-page-002",
+      "contentType": "activity",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "fun-learning-003",
+      "title": "Gravity Keeps Us on the Ground",
+      "description": "Explore the invisible pull that makes dropped objects fall towards Earth.",
+      "keywords": [
+        "gravity",
+        "falling",
+        "weight",
+        "earth",
+        "force",
+        "science",
+        "space",
+        "objects"
+      ],
+      "category": "Science",
+      "website": "fun-learning",
+      "page": "fun-learning-page-003",
+      "contentType": "article",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "fun-learning-004",
+      "title": "Light and Shadows",
+      "description": "Make a shadow puppet and discover how light travels and objects block it.",
+      "keywords": [
+        "light",
+        "shadow",
+        "shadows",
+        "torch",
+        "sun",
+        "puppet",
+        "science",
+        "experiment"
+      ],
+      "category": "Science",
+      "website": "fun-learning",
+      "page": "fun-learning-page-004",
+      "contentType": "activity",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "fun-learning-005",
+      "title": "The Five Senses",
+      "description": "Explore how eyes, ears, nose, tongue and skin help us notice the world.",
+      "keywords": [
+        "five senses",
+        "senses",
+        "seeing",
+        "hearing",
+        "smell",
+        "taste",
+        "touch",
+        "body"
+      ],
+      "category": "Human Body",
+      "website": "fun-learning",
+      "page": "fun-learning-page-005",
+      "contentType": "article",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "fun-learning-006",
+      "title": "The Water Cycle",
+      "description": "Follow water as it warms, rises into the air, forms clouds and falls as rain.",
+      "keywords": [
+        "water cycle",
+        "evaporation",
+        "clouds",
+        "rain",
+        "water",
+        "weather",
+        "science"
+      ],
+      "category": "Science",
+      "website": "fun-learning",
+      "page": "fun-learning-page-006",
+      "contentType": "gallery",
+      "featured": true,
+      "relatedEntries": [
+        "nature-club-006",
+        "nature-club-005",
+        "fun-learning-001"
+      ]
+    },
+    {
+      "id": "fun-learning-007",
+      "title": "Electricity: Powering a Light",
+      "description": "Learn how electricity helps lamps, toys and other devices work safely.",
+      "keywords": [
+        "electricity",
+        "electric",
+        "current",
+        "light bulb",
+        "power",
+        "energy",
+        "safety",
+        "science"
+      ],
+      "category": "Science",
+      "website": "fun-learning",
+      "page": "fun-learning-page-007",
+      "contentType": "article",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "fun-learning-008",
+      "title": "Number Patterns Puzzle",
+      "description": "Spot the rule in each number pattern and choose what should come next.",
+      "keywords": [
+        "maths",
+        "math",
+        "number patterns",
+        "counting",
+        "sequence",
+        "puzzle",
+        "numbers",
+        "challenge"
+      ],
+      "category": "Maths",
+      "website": "fun-learning",
+      "page": "fun-learning-page-008",
+      "contentType": "game",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "fun-learning-009",
+      "title": "Shapes Are Everywhere",
+      "description": "Find circles, squares, triangles, rectangles and other shapes in everyday objects.",
+      "keywords": [
+        "shapes",
+        "2d shapes",
+        "circle",
+        "square",
+        "triangle",
+        "rectangle",
+        "geometry",
+        "maths"
+      ],
+      "category": "Maths",
+      "website": "fun-learning",
+      "page": "fun-learning-page-009",
+      "contentType": "activity",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "fun-learning-010",
+      "title": "Measure It! Longer or Shorter?",
+      "description": "Compare the length and height of familiar objects using simple measuring ideas.",
+      "keywords": [
+        "measure",
+        "measurement",
+        "length",
+        "height",
+        "longer",
+        "shorter",
+        "maths",
+        "compare"
+      ],
+      "category": "Maths",
+      "website": "fun-learning",
+      "page": "fun-learning-page-010",
+      "contentType": "activity",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "fun-learning-011",
+      "title": "Word Detectives: Rhyming Words",
+      "description": "Play with words that have matching end sounds and make a silly rhyme of your own.",
+      "keywords": [
+        "words",
+        "rhyme",
+        "rhyming",
+        "phonics",
+        "sounds",
+        "reading",
+        "language",
+        "word game"
+      ],
+      "category": "English",
+      "website": "fun-learning",
+      "page": "fun-learning-page-011",
+      "contentType": "game",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "fun-learning-012",
+      "title": "Punctuation Makes Meaning",
+      "description": "Meet full stops, question marks and exclamation marks in short, funny sentences.",
+      "keywords": [
+        "punctuation",
+        "full stop",
+        "question mark",
+        "exclamation mark",
+        "writing",
+        "english",
+        "grammar"
+      ],
+      "category": "English",
+      "website": "fun-learning",
+      "page": "fun-learning-page-012",
+      "contentType": "article",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "fun-learning-013",
+      "title": "Which Materials Bend or Stretch?",
+      "description": "Investigate how rubber, paper, fabric and other materials behave when gently tested.",
+      "keywords": [
+        "materials",
+        "bend",
+        "stretch",
+        "flexible",
+        "hard",
+        "soft",
+        "science",
+        "experiment"
+      ],
+      "category": "Science",
+      "website": "fun-learning",
+      "page": "fun-learning-page-013",
+      "contentType": "activity",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "fun-learning-014",
+      "title": "Brain Teaser: The Odd One Out",
+      "description": "Look carefully at pictures and words, then explain which one does not belong.",
+      "keywords": [
+        "odd one out",
+        "brain teaser",
+        "puzzle",
+        "thinking",
+        "sorting",
+        "game",
+        "challenge"
+      ],
+      "category": "Puzzles",
+      "website": "fun-learning",
+      "page": "fun-learning-page-014",
+      "contentType": "game",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "nature-club-001",
+      "title": "How Do Trees Grow?",
+      "description": "Explore roots, trunks, branches and leaves, and learn how trees make their own food.",
+      "keywords": [
+        "trees",
+        "tree",
+        "roots",
+        "trunk",
+        "branches",
+        "leaves",
+        "photosynthesis",
+        "plants"
+      ],
+      "category": "Plants",
+      "website": "nature-club",
+      "page": "nature-club-page-001",
+      "contentType": "article",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "nature-club-002",
+      "title": "A Seed's Big Adventure",
+      "description": "Watch a seed sprout roots and shoots before growing into a young plant.",
+      "keywords": [
+        "seed",
+        "seeds",
+        "germination",
+        "sprout",
+        "roots",
+        "shoot",
+        "plant life cycle",
+        "growing"
+      ],
+      "category": "Plants",
+      "website": "nature-club",
+      "page": "nature-club-page-002",
+      "contentType": "gallery",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "nature-club-003",
+      "title": "Wildflowers in a Meadow",
+      "description": "Meet daisies, poppies and buttercups, and discover the insects that visit their flowers.",
+      "keywords": [
+        "wildflowers",
+        "flowers",
+        "meadow",
+        "daisy",
+        "poppy",
+        "buttercup",
+        "bees",
+        "butterflies",
+        "plants"
+      ],
+      "category": "Plants",
+      "website": "nature-club",
+      "page": "nature-club-page-003",
+      "contentType": "gallery",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "nature-club-004",
+      "title": "Why Do Leaves Change Colour?",
+      "description": "Discover why many trees turn golden, orange and red before their leaves fall in autumn.",
+      "keywords": [
+        "autumn",
+        "fall",
+        "leaves",
+        "leaf",
+        "colour",
+        "trees",
+        "seasons",
+        "deciduous"
+      ],
+      "category": "Seasons",
+      "website": "nature-club",
+      "page": "nature-club-page-004",
+      "contentType": "article",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "nature-club-005",
+      "title": "Cloud Spotter's Guide",
+      "description": "Look for fluffy cumulus, thin wispy cirrus and grey rain clouds in the sky.",
+      "keywords": [
+        "cloud",
+        "clouds",
+        "cumulus",
+        "cirrus",
+        "rain clouds",
+        "weather",
+        "sky",
+        "cloud spotting"
+      ],
+      "category": "Weather",
+      "website": "nature-club",
+      "page": "nature-club-page-005",
+      "contentType": "gallery",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "nature-club-006",
+      "title": "Where Does Rain Come From?",
+      "description": "Learn how water vapour cools inside clouds and falls as tiny drops of rain.",
+      "keywords": [
+        "rain",
+        "rainfall",
+        "clouds",
+        "water cycle",
+        "weather",
+        "water vapour",
+        "precipitation"
+      ],
+      "category": "Weather",
+      "website": "nature-club",
+      "page": "nature-club-page-006",
+      "contentType": "article",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "nature-club-007",
+      "title": "Wind: Air on the Move",
+      "description": "Make a simple wind streamer and notice how moving air can push and turn things.",
+      "keywords": [
+        "wind",
+        "breeze",
+        "air",
+        "weather",
+        "streamer",
+        "windmill",
+        "science",
+        "experiment"
+      ],
+      "category": "Weather",
+      "website": "nature-club",
+      "page": "nature-club-page-007",
+      "contentType": "activity",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "nature-club-008",
+      "title": "Volcanoes: Mountains That Can Erupt",
+      "description": "Discover how some mountains release hot melted rock, ash and gases from inside Earth.",
+      "keywords": [
+        "volcano",
+        "volcanoes",
+        "eruption",
+        "lava",
+        "magma",
+        "ash",
+        "mountains",
+        "earth science"
+      ],
+      "category": "Earth Science",
+      "website": "nature-club",
+      "page": "nature-club-page-008",
+      "contentType": "article",
+      "featured": true,
+      "relatedEntries": [
+        "animal-world-009",
+        "space-explorer-002",
+        "fun-learning-003"
+      ]
+    },
+    {
+      "id": "nature-club-009",
+      "title": "Mountains, Rivers and Valleys",
+      "description": "Explore how high mountains, flowing rivers and changing land create different landscapes.",
+      "keywords": [
+        "mountains",
+        "river",
+        "valley",
+        "landscape",
+        "geography",
+        "water",
+        "landforms"
+      ],
+      "category": "Geography",
+      "website": "nature-club",
+      "page": "nature-club-page-009",
+      "contentType": "gallery",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "nature-club-010",
+      "title": "Deserts Are Full of Life",
+      "description": "Meet plants and animals with clever ways to live where rain is scarce.",
+      "keywords": [
+        "desert",
+        "deserts",
+        "cactus",
+        "camel",
+        "scorpion",
+        "hot",
+        "cold",
+        "habitat",
+        "dry"
+      ],
+      "category": "Habitats",
+      "website": "nature-club",
+      "page": "nature-club-page-010",
+      "contentType": "article",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "nature-club-011",
+      "title": "The World's Seven Continents",
+      "description": "Find the seven continents on a map and compare their shapes and locations.",
+      "keywords": [
+        "continents",
+        "continent",
+        "africa",
+        "asia",
+        "europe",
+        "north america",
+        "south america",
+        "australia",
+        "antarctica",
+        "map",
+        "geography"
+      ],
+      "category": "Geography",
+      "website": "nature-club",
+      "page": "nature-club-page-011",
+      "contentType": "activity",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "nature-club-012",
+      "title": "Recycle, Reuse, Repair",
+      "description": "Sort everyday materials and discover small ways to make less rubbish.",
+      "keywords": [
+        "recycling",
+        "recycle",
+        "reuse",
+        "repair",
+        "paper",
+        "glass",
+        "plastic",
+        "environment",
+        "rubbish"
+      ],
+      "category": "Environment",
+      "website": "nature-club",
+      "page": "nature-club-page-012",
+      "contentType": "activity",
+      "featured": true,
+      "relatedEntries": [
+        "ocean-discovery-012",
+        "ocean-discovery-011",
+        "ocean-discovery-006"
+      ]
+    },
+    {
+      "id": "nature-club-013",
+      "title": "Forest Layers: From Floor to Canopy",
+      "description": "Look from the shady forest floor up to the leafy canopy where many animals live.",
+      "keywords": [
+        "forest",
+        "woods",
+        "canopy",
+        "forest floor",
+        "trees",
+        "habitat",
+        "wildlife",
+        "layers"
+      ],
+      "category": "Habitats",
+      "website": "nature-club",
+      "page": "nature-club-page-013",
+      "contentType": "article",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "nature-club-014",
+      "title": "Make a Mini Nature Journal",
+      "description": "Start a picture journal of leaves, clouds and tiny things you notice outdoors.",
+      "keywords": [
+        "nature journal",
+        "notebook",
+        "observing",
+        "drawing",
+        "leaves",
+        "clouds",
+        "outdoors",
+        "activity"
+      ],
+      "category": "Nature Skills",
+      "website": "nature-club",
+      "page": "nature-club-page-014",
+      "contentType": "activity",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "history-time-001",
+      "title": "A Day in Ancient Egypt",
+      "description": "Visit the River Nile and discover homes, boats, farming and daily life in ancient Egypt.",
+      "keywords": [
+        "ancient egypt",
+        "egypt",
+        "nile",
+        "pharaoh",
+        "pyramids",
+        "history",
+        "ancient civilisation"
+      ],
+      "category": "Ancient World",
+      "website": "history-time",
+      "page": "history-time-page-001",
+      "contentType": "article",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "history-time-002",
+      "title": "How Were the Pyramids Built?",
+      "description": "Explore the huge stone structures built in ancient Egypt and the people who made them.",
+      "keywords": [
+        "pyramids",
+        "giza",
+        "egypt",
+        "ancient",
+        "building",
+        "stones",
+        "history",
+        "wonders"
+      ],
+      "category": "Ancient World",
+      "website": "history-time",
+      "page": "history-time-page-002",
+      "contentType": "gallery",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "history-time-003",
+      "title": "The Ancient Greeks",
+      "description": "Meet the people of ancient Greece and explore their stories, buildings, games and ideas.",
+      "keywords": [
+        "ancient greece",
+        "greeks",
+        "athens",
+        "olympics",
+        "temples",
+        "history",
+        "ancient world"
+      ],
+      "category": "Ancient World",
+      "website": "history-time",
+      "page": "history-time-page-003",
+      "contentType": "article",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "history-time-004",
+      "title": "The First Olympic Games",
+      "description": "Travel back to ancient Greece to learn about the early sporting games at Olympia.",
+      "keywords": [
+        "olympics",
+        "olympic games",
+        "ancient greece",
+        "sport",
+        "athletes",
+        "olympia",
+        "history"
+      ],
+      "category": "Ancient World",
+      "website": "history-time",
+      "page": "history-time-page-004",
+      "contentType": "facts",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "history-time-005",
+      "title": "Castles: Homes Made of Stone",
+      "description": "Explore castle towers, walls, drawbridges and the people who lived and worked inside.",
+      "keywords": [
+        "castle",
+        "castles",
+        "medieval",
+        "knights",
+        "tower",
+        "drawbridge",
+        "history",
+        "fortress"
+      ],
+      "category": "Medieval Life",
+      "website": "history-time",
+      "page": "history-time-page-005",
+      "contentType": "gallery",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "history-time-006",
+      "title": "A Medieval Market Day",
+      "description": "Imagine a busy market with bakers, makers, traders and people buying useful goods.",
+      "keywords": [
+        "medieval",
+        "market",
+        "history",
+        "shops",
+        "bakers",
+        "traders",
+        "middle ages",
+        "daily life"
+      ],
+      "category": "Medieval Life",
+      "website": "history-time",
+      "page": "history-time-page-006",
+      "contentType": "article",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "history-time-007",
+      "title": "The Great Fire of London",
+      "description": "Learn how a fire changed parts of London in 1666 and how the city was rebuilt.",
+      "keywords": [
+        "great fire of london",
+        "london",
+        "1666",
+        "history",
+        "fire",
+        "city",
+        "rebuilding"
+      ],
+      "category": "British History",
+      "website": "history-time",
+      "page": "history-time-page-007",
+      "contentType": "article",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "history-time-008",
+      "title": "Who Invented the Printing Press?",
+      "description": "Discover how printing books helped ideas and stories travel to more people.",
+      "keywords": [
+        "printing press",
+        "gutenberg",
+        "books",
+        "invention",
+        "history",
+        "printing",
+        "technology"
+      ],
+      "category": "Inventions",
+      "website": "history-time",
+      "page": "history-time-page-008",
+      "contentType": "article",
+      "featured": true,
+      "relatedEntries": [
+        "history-time-009",
+        "little-inventors-013",
+        "little-inventors-001"
+      ]
+    },
+    {
+      "id": "history-time-009",
+      "title": "The First Trains",
+      "description": "See how steam engines helped people and goods travel along railway tracks.",
+      "keywords": [
+        "trains",
+        "steam train",
+        "railway",
+        "locomotive",
+        "transport",
+        "invention",
+        "history"
+      ],
+      "category": "Inventions",
+      "website": "history-time",
+      "page": "history-time-page-009",
+      "contentType": "gallery",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "history-time-010",
+      "title": "A Timeline of Transport",
+      "description": "Travel from early boats and carts to bicycles, trains, cars and aeroplanes.",
+      "keywords": [
+        "transport",
+        "vehicles",
+        "cars",
+        "bicycles",
+        "trains",
+        "boats",
+        "planes",
+        "timeline",
+        "history"
+      ],
+      "category": "Inventions",
+      "website": "history-time",
+      "page": "history-time-page-010",
+      "contentType": "activity",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "history-time-011",
+      "title": "How Did People Send Messages?",
+      "description": "Explore messengers, letters, post horns and the ways people shared news long ago.",
+      "keywords": [
+        "messages",
+        "letters",
+        "post",
+        "communication",
+        "history",
+        "telegraph",
+        "writing"
+      ],
+      "category": "Everyday History",
+      "website": "history-time",
+      "page": "history-time-page-011",
+      "contentType": "article",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "history-time-012",
+      "title": "The First People and Cave Art",
+      "description": "Look at ancient cave paintings and think about what they can tell us about the past.",
+      "keywords": [
+        "cave art",
+        "cave paintings",
+        "prehistoric",
+        "early humans",
+        "history",
+        "paintings",
+        "ancient"
+      ],
+      "category": "Ancient World",
+      "website": "history-time",
+      "page": "history-time-page-012",
+      "contentType": "gallery",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "history-time-013",
+      "title": "A Visit to a Roman Villa",
+      "description": "Step inside a Roman home and discover its rooms, mosaics, gardens and heating.",
+      "keywords": [
+        "roman",
+        "rome",
+        "roman villa",
+        "mosaics",
+        "ancient rome",
+        "history",
+        "homes"
+      ],
+      "category": "Ancient World",
+      "website": "history-time",
+      "page": "history-time-page-013",
+      "contentType": "gallery",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "history-time-014",
+      "title": "History Detective: Then and Now",
+      "description": "Compare objects from the past with things we use today and spot what has changed.",
+      "keywords": [
+        "history",
+        "then and now",
+        "past",
+        "present",
+        "old objects",
+        "modern life",
+        "detective",
+        "quiz"
+      ],
+      "category": "Everyday History",
+      "website": "history-time",
+      "page": "history-time-page-014",
+      "contentType": "game",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "creative-corner-001",
+      "title": "The Colour Wheel",
+      "description": "Mix and arrange colours to see how red, yellow and blue can make new shades.",
+      "keywords": [
+        "colour wheel",
+        "colors",
+        "primary colours",
+        "secondary colours",
+        "red",
+        "yellow",
+        "blue",
+        "art",
+        "painting"
+      ],
+      "category": "Art",
+      "website": "creative-corner",
+      "page": "creative-corner-page-001",
+      "contentType": "article",
+      "featured": true,
+      "relatedEntries": [
+        "creative-corner-002",
+        "creative-corner-007",
+        "fun-learning-001"
+      ]
+    },
+    {
+      "id": "creative-corner-002",
+      "title": "Warm and Cool Colours",
+      "description": "Sort sunny reds and oranges from cool blues and greens, then make a colour picture.",
+      "keywords": [
+        "warm colours",
+        "cool colours",
+        "colour",
+        "blue",
+        "green",
+        "red",
+        "orange",
+        "art"
+      ],
+      "category": "Art",
+      "website": "creative-corner",
+      "page": "creative-corner-page-002",
+      "contentType": "activity",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "creative-corner-003",
+      "title": "Draw a Dinosaur Step by Step",
+      "description": "Use simple shapes to sketch a friendly dinosaur, then add spots, scales or stripes.",
+      "keywords": [
+        "draw",
+        "drawing",
+        "dinosaur",
+        "dino",
+        "art",
+        "sketch",
+        "shapes",
+        "how to draw"
+      ],
+      "category": "Drawing",
+      "website": "creative-corner",
+      "page": "creative-corner-page-003",
+      "contentType": "activity",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "creative-corner-004",
+      "title": "Make a Paper Collage",
+      "description": "Cut or tear paper shapes and arrange them into a picture of your own design.",
+      "keywords": [
+        "collage",
+        "paper craft",
+        "cutting",
+        "shapes",
+        "art",
+        "craft",
+        "creative"
+      ],
+      "category": "Crafts",
+      "website": "creative-corner",
+      "page": "creative-corner-page-004",
+      "contentType": "activity",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "creative-corner-005",
+      "title": "Patterns in Nature",
+      "description": "Find repeating patterns in shells, leaves, flowers and animal markings.",
+      "keywords": [
+        "patterns",
+        "nature pattern",
+        "spiral",
+        "symmetry",
+        "leaves",
+        "shells",
+        "flowers",
+        "art"
+      ],
+      "category": "Patterns",
+      "website": "creative-corner",
+      "page": "creative-corner-page-005",
+      "contentType": "gallery",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "creative-corner-006",
+      "title": "Symmetry: Two Sides Alike",
+      "description": "Fold, draw and decorate pictures to explore shapes that match on both sides.",
+      "keywords": [
+        "symmetry",
+        "symmetrical",
+        "mirror image",
+        "shapes",
+        "art",
+        "maths",
+        "folding"
+      ],
+      "category": "Patterns",
+      "website": "creative-corner",
+      "page": "creative-corner-page-006",
+      "contentType": "activity",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "creative-corner-007",
+      "title": "Make a Rainbow Spinner",
+      "description": "Create a spinning colour wheel and watch the colours blend as it turns.",
+      "keywords": [
+        "rainbow",
+        "spinner",
+        "colour wheel",
+        "craft",
+        "colour mixing",
+        "art",
+        "activity"
+      ],
+      "category": "Crafts",
+      "website": "creative-corner",
+      "page": "creative-corner-page-007",
+      "contentType": "activity",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "creative-corner-008",
+      "title": "Build a Story with Pictures",
+      "description": "Choose a character, a place and a surprise to make your own little picture story.",
+      "keywords": [
+        "storytelling",
+        "story",
+        "pictures",
+        "characters",
+        "imagination",
+        "writing",
+        "art"
+      ],
+      "category": "Story Studio",
+      "website": "creative-corner",
+      "page": "creative-corner-page-008",
+      "contentType": "activity",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "creative-corner-009",
+      "title": "Sculpture with Safe Recycled Materials",
+      "description": "Turn clean cardboard tubes and boxes into a creature, tower or imaginary machine.",
+      "keywords": [
+        "sculpture",
+        "recycled art",
+        "cardboard",
+        "craft",
+        "model",
+        "building",
+        "creative"
+      ],
+      "category": "Crafts",
+      "website": "creative-corner",
+      "page": "creative-corner-page-009",
+      "contentType": "activity",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "creative-corner-010",
+      "title": "Doodle Garden",
+      "description": "Fill a page with imaginary flowers, curling leaves, tiny bugs and playful patterns.",
+      "keywords": [
+        "doodle",
+        "doodling",
+        "garden",
+        "flowers",
+        "bugs",
+        "drawing",
+        "imagination",
+        "art"
+      ],
+      "category": "Drawing",
+      "website": "creative-corner",
+      "page": "creative-corner-page-010",
+      "contentType": "activity",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "creative-corner-011",
+      "title": "Printmaking with Leaf Shapes",
+      "description": "Use leaf shapes and washable paint to make repeating prints on paper.",
+      "keywords": [
+        "printmaking",
+        "leaf prints",
+        "printing",
+        "paint",
+        "leaves",
+        "art",
+        "nature craft"
+      ],
+      "category": "Art",
+      "website": "creative-corner",
+      "page": "creative-corner-page-011",
+      "contentType": "activity",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "creative-corner-012",
+      "title": "Make a Colourful Flag",
+      "description": "Design a flag using shapes, colours and symbols that tell a story about an imaginary place.",
+      "keywords": [
+        "flag",
+        "design",
+        "symbols",
+        "colour",
+        "art",
+        "geography",
+        "creative challenge"
+      ],
+      "category": "Design",
+      "website": "creative-corner",
+      "page": "creative-corner-page-012",
+      "contentType": "activity",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "creative-corner-013",
+      "title": "The Art of Mosaics",
+      "description": "Look at pictures made from many small pieces and design a simple paper mosaic.",
+      "keywords": [
+        "mosaic",
+        "mosaics",
+        "tiles",
+        "patterns",
+        "art",
+        "ancient rome",
+        "craft"
+      ],
+      "category": "Art",
+      "website": "creative-corner",
+      "page": "creative-corner-page-013",
+      "contentType": "gallery",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "creative-corner-014",
+      "title": "Creative Corner Challenge",
+      "description": "Try a quick creative prompt: invent a new creature and draw the home it would need.",
+      "keywords": [
+        "creative challenge",
+        "imagination",
+        "creature",
+        "drawing",
+        "design",
+        "art",
+        "game"
+      ],
+      "category": "Challenges",
+      "website": "creative-corner",
+      "page": "creative-corner-page-014",
+      "contentType": "game",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "little-inventors-001",
+      "title": "Meet the Parts of a Computer",
+      "description": "Discover the screen, keyboard, mouse and computer box, and what each part helps us do.",
+      "keywords": [
+        "computer",
+        "computers",
+        "screen",
+        "monitor",
+        "keyboard",
+        "mouse",
+        "desktop",
+        "hardware",
+        "technology"
+      ],
+      "category": "Computers",
+      "website": "little-inventors",
+      "page": "little-inventors-page-001",
+      "contentType": "article",
+      "featured": true,
+      "relatedEntries": [
+        "little-inventors-002",
+        "little-inventors-003",
+        "little-inventors-004"
+      ]
+    },
+    {
+      "id": "little-inventors-002",
+      "title": "Keyboard Explorer",
+      "description": "Find letters, numbers, the space bar and arrow keys on a computer keyboard.",
+      "keywords": [
+        "keyboard",
+        "keys",
+        "typing",
+        "letters",
+        "numbers",
+        "space bar",
+        "arrows",
+        "computer"
+      ],
+      "category": "Computers",
+      "website": "little-inventors",
+      "page": "little-inventors-page-002",
+      "contentType": "activity",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "little-inventors-003",
+      "title": "How Does a Computer Mouse Work?",
+      "description": "Practise moving a pointer, clicking and scrolling to explore a computer screen.",
+      "keywords": [
+        "computer mouse",
+        "mouse",
+        "pointer",
+        "click",
+        "scroll",
+        "computer",
+        "hardware"
+      ],
+      "category": "Computers",
+      "website": "little-inventors",
+      "page": "little-inventors-page-003",
+      "contentType": "activity",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "little-inventors-004",
+      "title": "What Is the Internet?",
+      "description": "Learn how computers can connect and share information, like a huge library of linked pages.",
+      "keywords": [
+        "internet",
+        "web",
+        "website",
+        "online",
+        "computer",
+        "network",
+        "information",
+        "technology"
+      ],
+      "category": "Digital World",
+      "website": "little-inventors",
+      "page": "little-inventors-page-004",
+      "contentType": "article",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "little-inventors-005",
+      "title": "Robots Help People",
+      "description": "Meet robots that explore distant places, build things and help with careful jobs.",
+      "keywords": [
+        "robot",
+        "robots",
+        "robotics",
+        "machines",
+        "exploration",
+        "helping",
+        "technology"
+      ],
+      "category": "Robots",
+      "website": "little-inventors",
+      "page": "little-inventors-page-005",
+      "contentType": "gallery",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "little-inventors-006",
+      "title": "Give a Robot Clear Instructions",
+      "description": "Arrange simple steps to guide a pretend robot from the start to its goal.",
+      "keywords": [
+        "coding",
+        "algorithm",
+        "instructions",
+        "sequence",
+        "robot",
+        "programming",
+        "steps",
+        "game"
+      ],
+      "category": "Coding",
+      "website": "little-inventors",
+      "page": "little-inventors-page-006",
+      "contentType": "game",
+      "featured": true,
+      "relatedEntries": [
+        "little-inventors-007",
+        "little-inventors-012",
+        "fun-learning-014"
+      ]
+    },
+    {
+      "id": "little-inventors-007",
+      "title": "What Is an Algorithm?",
+      "description": "An algorithm is a set of steps, like a recipe, that helps solve a problem.",
+      "keywords": [
+        "algorithm",
+        "algorithms",
+        "steps",
+        "recipe",
+        "sequence",
+        "coding",
+        "computing",
+        "problem solving"
+      ],
+      "category": "Coding",
+      "website": "little-inventors",
+      "page": "little-inventors-page-007",
+      "contentType": "article",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "little-inventors-008",
+      "title": "Simple Machines Make Work Easier",
+      "description": "Explore levers, wheels, pulleys and ramps that help people move or lift things.",
+      "keywords": [
+        "simple machines",
+        "lever",
+        "wheel",
+        "pulley",
+        "ramp",
+        "invention",
+        "force",
+        "engineering"
+      ],
+      "category": "Machines",
+      "website": "little-inventors",
+      "page": "little-inventors-page-008",
+      "contentType": "article",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "little-inventors-009",
+      "title": "Wheels Through Time",
+      "description": "Discover how the wheel changed travel, tools and the way people move heavy things.",
+      "keywords": [
+        "wheel",
+        "wheels",
+        "invention",
+        "transport",
+        "cart",
+        "car",
+        "history",
+        "machines"
+      ],
+      "category": "Machines",
+      "website": "little-inventors",
+      "page": "little-inventors-page-009",
+      "contentType": "gallery",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "little-inventors-010",
+      "title": "How Do Bridges Stay Up?",
+      "description": "Explore arches, beams and strong shapes that help bridges cross rivers and roads.",
+      "keywords": [
+        "bridges",
+        "bridge",
+        "engineering",
+        "arches",
+        "beams",
+        "structures",
+        "building",
+        "design"
+      ],
+      "category": "Engineering",
+      "website": "little-inventors",
+      "page": "little-inventors-page-010",
+      "contentType": "article",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "little-inventors-011",
+      "title": "Invent a Helpful Machine",
+      "description": "Sketch a machine that solves a small everyday problem, then label its parts.",
+      "keywords": [
+        "invent",
+        "invention",
+        "design",
+        "machine",
+        "engineering",
+        "problem solving",
+        "creative challenge"
+      ],
+      "category": "Engineering",
+      "website": "little-inventors",
+      "page": "little-inventors-page-011",
+      "contentType": "activity",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "little-inventors-012",
+      "title": "Digital Safety: Pause and Ask",
+      "description": "Learn simple rules for using a device with a trusted grown-up and keeping details private.",
+      "keywords": [
+        "online safety",
+        "digital safety",
+        "privacy",
+        "personal information",
+        "device",
+        "ask an adult",
+        "internet"
+      ],
+      "category": "Digital World",
+      "website": "little-inventors",
+      "page": "little-inventors-page-012",
+      "contentType": "article",
+      "featured": true,
+      "relatedEntries": []
+    },
+    {
+      "id": "little-inventors-013",
+      "title": "How Do Cameras Make Pictures?",
+      "description": "Discover how a camera captures light to make a photograph you can look at later.",
+      "keywords": [
+        "camera",
+        "photograph",
+        "photo",
+        "pictures",
+        "light",
+        "lens",
+        "technology",
+        "invention"
+      ],
+      "category": "Inventions",
+      "website": "little-inventors",
+      "page": "little-inventors-page-013",
+      "contentType": "article",
+      "featured": false,
+      "relatedEntries": []
+    },
+    {
+      "id": "little-inventors-014",
+      "title": "Spot the Machine: Everyday Helpers",
+      "description": "Find machines at home and school, from washing machines to lifts and clocks.",
+      "keywords": [
+        "machines",
+        "everyday machines",
+        "technology",
+        "clock",
+        "lift",
+        "washing machine",
+        "tools"
+      ],
+      "category": "Machines",
+      "website": "little-inventors",
+      "page": "little-inventors-page-014",
+      "contentType": "game",
+      "featured": false,
+      "relatedEntries": []
+    }
+  ]
+}

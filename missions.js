@@ -57,7 +57,15 @@
           return !!n && n.by === 'pupil' && inPictures(n);
         } }
       ]
-    }
+    },
+    { id: 'wrobot', label: 'Bonus', title: 'My Robot, My Computer', app: 'robot', appLabel: 'Open My Robot', steps: [
+        { id: 'wr-a', text: 'Build and save your robot', event: 'robot:built' },
+        { id: 'wr-b', text: 'Make a folder', event: 'robot:folder' },
+        { id: 'wr-c', text: 'Move a file into a folder', event: 'robot:moved' },
+        { id: 'wr-d', text: 'Copy your robot', event: 'robot:copied' },
+        { id: 'wr-e', text: 'Redesign your robot', event: 'robot:redesigned' },
+        { id: 'wr-f', text: 'Become a Robot Creator and File Explorer', event: 'robot:complete' }
+    ] }
   ];
   var COMING = [{ label: 'Week 4', title: 'Coming soon' }, { label: 'Week 5', title: 'Coming soon' }];
 
